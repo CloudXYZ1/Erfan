@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irfan Khan | Data Analyst</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header (Navigation Bar) -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="profile.jpg" alt="Irfan Khan" class="profile-img">
+            <div class="intro">
+                <h1>Hello, I'm Irfan Khan</h1>
+                <p>A beginner Data Analyst</p>
+                <p>This page is dedicated to beginners interested in Data Analysis. Follow my journey!</p>
+                <button onclick="window.location.href='#portfolio'">Check out my portfolio and Get in touch</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="about" class="skills">
+        <h2>Skills & Expertise</h2>
+        <ul>
+            <li>MS Office</li>
+            <li>HTML</li>
+            <li>Photoshop</li>
+            <li>Telecommunication</li>
+            <li>Communication Skills</li>
+            <li>Retail and Cashier Experience</li>
+        </ul>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+            <!-- Example of a project grid item -->
+            <div class="portfolio-item">
+                <img src="project1.jpg" alt="Project 1">
+                <div class="portfolio-overlay">
+                    <p>Project 1 Description</p>
+                </div>
+            </div>
+            <!-- More items can go here -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Irfan Khan</p>
+        <p><a href="https://www.linkedin.com/in/irfan-khan-71104133b" target="_blank">LinkedIn</a> | <a href="https://x.com/IrfanKhan416790" target="_blank">Twitter</a></p>
+    </footer>
+</body>
+</html>
